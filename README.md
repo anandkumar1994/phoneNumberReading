@@ -1,3 +1,5 @@
+GERMAN PHONE NUMBER CODE DESCRIPTION :
+
 The German country code is always +49 or 0049. If a country code is given, the next number
 cannot be a 0. If this number starts with a 1, it is a mobile phone. In this case, the next three
 numbers (with the 1) are the area code. The remaining numbers are the number. If it is not
@@ -18,3 +20,16 @@ Examples for German phone numbers3
 The output should be in a consistent format: <COUNTRY CODE> <AREA CODE> <NUMBER>
 Examples:
 • +49174321324 ⇒ +49 174 321324 • 0851 509-3394 ⇒ +49 8515093394
+
+EMAILID  VALIDATION :
+
+Examples for Email Addresses
+• peter.mueller@uni-passau.de
+• peter dot mueller at uni-passau
+dot de
+• peter.mueller(at)uni-passau.de
+• peter.mueller (at) uni-passau.de
+• onefullword@gw.uni-passau.de
+• peter (dot) mueller (at) uni-passau
+(dot) de
+The output should be the correct email address.
