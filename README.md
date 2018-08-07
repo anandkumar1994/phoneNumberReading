@@ -1,20 +1,20 @@
-Steps to execute the program for Assisnment 1 - Validation of German phone numbers
-Type 1:-
-Step 1- Open eclipse with blank project
-Step 2- In the Open dropdown box browse Assignment 1 file --> German Phone Numbers --> src --> Myclass.java
-Step 3- Run the code
+The German country code is always +49 or 0049. If a country code is given, the next number
+cannot be a 0. If this number starts with a 1, it is a mobile phone. In this case, the next three
+numbers (with the 1) are the area code. The remaining numbers are the number. If it is not
+a mobile number, just use the remaining numbers. (Meaning: No area code detection, if not a
+mobile number)
 
-Type 2- If you do not have eclipse 
-Step 1- Open Assignment 1 file --> German Phone Numbers  --> src -->Myclass.java
-Step 2- Copy the code
-Step 3- Run the code in your preferable terminal
+Examples for German phone numbers3
+• +49174321324
+• 0164883423
+• 0049(0)16483311724
+• +49-8332-3010
+• 00498513994
+• 0164 5554454
+• 0851 509
+• 0851 509-0
+• (0851) 3394
 
-
-Steps to execute the program for Assignment 1 - Validation of Email address
-Step 1- Open Jupyter notebook
-Step 2- Browse and find Assignment 1 folder
-Step 3- Open  Email ID validation file
-Step 4- Run the code.
-Step 5- Give inputs into the 'text' variable.
-
-Thank You
+The output should be in a consistent format: <COUNTRY CODE> <AREA CODE> <NUMBER>
+Examples:
+• +49174321324 ⇒ +49 174 321324 • 0851 509-3394 ⇒ +49 8515093394
